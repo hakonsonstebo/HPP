@@ -1,7 +1,4 @@
-def test():
-    for i in range(10):
-        print("frederick")
-        
+import pandas as pd
+import numpy as np
 
-   
-test()
+HPP_data = pd.read_csv("/train.csv")
